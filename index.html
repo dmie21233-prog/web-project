@@ -91,10 +91,9 @@ Instagram">Visit Instagram</a>
     <!-- Attribute and Value Summary -->
     <h3>Attributes Used</h3>
     <p>
-           <style> body { background-color: #BDFCC9; } </style>
+        
         <b>&lt;body&gt;</b> → bgcolor = "#f0f8ff" (light blue background)<br>
         <b>&lt;img&gt;</b> → src = "c:\Users\User\Downloads\15a319b7-d9ac-4b4f-9b5a-ec9c97a81dc4.jfif_photo.jpg" (file location)<br>
-        <img src="Ict Laboratory.jpg" alt="Ict Laboratory" width="500" height="350">
         <b>&lt;img&gt;</b> → alt = "senior high school computer laboratory building" (description)<br>
         <b>&lt;img&gt;</b> → width = "500"
         <b>&lt;video&gt;</b> → width = "500" (video width)<br>
@@ -267,6 +266,106 @@ Instagram">Visit Instagram</a>
     <source src="Him.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
+    body {
+font-family: 'Segoe UI', sans-serif;
+margin: 0;
+background: linear-gradient(135deg, #d4fc79, #96e6a1);
+color: #333;
+}
+
+header {
+background: #385085;
+color: white;
+text-align: center;
+padding: 30px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.container {
+width: 90%;
+max-width: 1200px;
+margin: 30px auto;
+}
+
+.profile-card {
+background: white;
+text-align: center;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+margin-bottom: 30px;
+}
+
+.profile-card img {
+width: 180px;
+height: 180px;
+border-radius: 50%;
+border: 5px solid #96e6a1;
+object-fit: cover;
+}
+
+.section {
+background: white;
+padding: 25px;
+border-radius: 20px;
+margin-bottom: 25px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+color: #385085;
+}
+
+ul li, ol li {
+margin: 10px 0;
+}
+
+a.button {
+display: inline-block;
+background: #385085;
+color: white;
+padding: 12px 25px;
+border-radius: 30px;
+text-decoration: none;
+transition: 0.3s;
+}
+
+a.button:hover {
+background: #2a3d68;
+transform: scale(1.05);
+}
+
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 20px;
+}
+
+.card {
+background: white;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+transition: 0.3s;
+}
+
+.card:hover {
+transform: translateY(-5px);
+}
+
+video {
+border-radius: 15px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+footer {
+text-align: center;
+background: #385085;
+color: white;
+padding: 15px;
+margin-top: 30px;
+}
+
     
 </body>
 </html>
